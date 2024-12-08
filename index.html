@@ -4,8 +4,193 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>MNHS Scout Portal</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="/css/hero-page.css">
+    <link rel="stylesheet" href="/css/main-styles.css">
 </head>
 <body>
+    <header>
+        <nav class="container">
+            <div class="logo-container">
+                <img src="/assets/imgs/wosm.png" alt="MNHS Scout Logo" class="logo-image">
+                <a href="#" class="logo">MNHS Scout Portal</a>
+            </div>
+            <div class="nav-links">
+                <a href="#about"><i class="fas fa-info-circle"></i> Who we are</a>
+                <a href="#activities"><i class="fas fa-hiking"></i> What we do</a>
+                <a href="#activities-joined"><i class="fas fa-map-marked-alt"></i> Where we work</a>
+                <a href="#contact"><i class="fas fa-envelope"></i> Get involved</a>
+                <a href="#donate" class="donate-btn"><i class="fas fa-user-plus"></i> Join Now</a>
+            </div>
+            <button class="mobile-menu-btn">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+        </nav>
+    </header>
+
+    <section class="hero">
+        <div class="hero-content container fade-in-up">
+            <h1>Creating transformative learning experiences for young people everywhere.</h1>
+            <a href="#about" class="scout-btn"><i class="fas fa-arrow-right"></i> Scout Movement</a>
+        </div>
+    </section>
+
+    <section id="about">
+        <div class="container">
+            <h2>About Us</h2>
+            <div class="about-content">
+                <div class="about-item">
+                    <i class="fas fa-bullseye"></i>
+                    <h3>Our Mission</h3>
+                    <p>To develop young leaders through outdoor adventures, community service, and personal growth opportunities.</p>
+                </div>
+                <div class="about-item">
+                    <i class="fas fa-heart"></i>
+                    <h3>Our Values</h3>
+                    <p>We uphold the Scout Law and Promise, fostering integrity, teamwork, and respect for nature and others.</p>
+                </div>
+                <div class="about-item">
+                    <i class="fas fa-history"></i>
+                    <h3>Our History</h3>
+                    <p>MNHS Senior Scouts was Established in 2018.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="activities">
+        <div class="container">
+            <h2 class="fade-in-up">Our Activities</h2>
+            <div class="activities-content">
+                <div class="activity-item">
+                    <i class="fas fa-campground"></i>
+                    <h3>Outdoor Adventures</h3>
+                    <p>Experience nature through camping, hiking, and survival skills training.</p>
+                </div>
+                <div class="activity-item">
+                    <i class="fas fa-hands-helping"></i>
+                    <h3>Community Service</h3>
+                    <p>Engage in local projects to make a positive impact on our community.</p>
+                </div>
+                <div class="activity-item">
+                    <i class="fas fa-users"></i>
+                    <h3>Leadership Training</h3>
+                    <p>Develop essential leadership skills through workshops and team-building exercises.</p>
+                </div>
+                <div class="activity-item">
+                    <i class="fas fa-award"></i>
+                    <h3>Merit Badges</h3>
+                    <p>Earn badges by mastering new skills in various fields of interest.</p>
+                </div>
+            </div>
+            <div class="image-carousel">
+                <div class="swiper-container">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide">
+                            <img src="https://source.unsplash.com/random/800x600/?scouts-camping" alt="Scouts Camping">
+                        </div>
+                        <div class="swiper-slide">
+                            <img src="https://source.unsplash.com/random/800x600/?scouts-hiking" alt="Scouts Hiking">
+                        </div>
+                        <div class="swiper-slide">
+                            <img src="https://source.unsplash.com/random/800x600/?scouts-community-service" alt="Community Service">
+                        </div>
+                        <div class="swiper-slide">
+                            <img src="https://source.unsplash.com/random/800x600/?scouts-leadership" alt="Leadership Training">
+                        </div>
+                    </div>
+                    <div class="swiper-pagination"></div>
+                    <div class="swiper-button-next"></div>
+                    <div class="swiper-button-prev"></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="activities-joined" class="activities-joined">
+        <div class="container">
+            <h2>Activities Joined</h2>
+            <div class="activities-joined-content">
+                <div class="activity-card">
+                    <img src="/assets/jota-joti-2024/jotajoti2024.jpg" alt="Camping Trip">
+                    <div class="activity-card-content">
+                        <h3>2024 Jota Joti - Baikingon</h3>
+                        <p>MNHS Scouts joined the 2024 JOTA-JOTI event at Baikingon Elementary School, connecting with scouts worldwide through amateur radio and internet communication.</p>
+                    </div>
+                </div>
+                <div class="activity-card">
+                    <img src="/assets/macasandig-parade/macasandig-parade.jpg" alt="Community Service">
+                    <div class="activity-card-content">
+                        <h3>Macasandig Parade</h3>
+                        <p>Our scouts proudly marched through the streets of Macasandig in a simple yet spirited parade, showcasing unity, discipline, and the vibrant spirit of Scouting.</p>
+                    </div>
+                </div>
+                <div class="activity-card">
+                    <img src="/assets/first-aid-training/first-aid-training.jpg" alt="First Aid Training">
+                    <div class="activity-card-content">
+                        <h3>First Aid Workshop</h3>
+                        <p>An intensive course on essential first aid skills, preparing scouts to handle emergencies with confidence.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact">
+        <div class="container contact-section">
+            <h2>Contact Us</h2>
+            <p>
+                We're available on our 
+                <a href="https://www.facebook.com/YourPageName" target="_blank" rel="noopener noreferrer" class="facebook-link">
+                    Facebook Page
+                </a>. Feel free to reach out!
+            </p>
+        </div>
+    </section>
     
+
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>MNHS SCOUT RESOURCES</h3>
+                    <ul>
+                        <li><a href="#">About MNHS Senior Scouts</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h3>MNHS SCOUTS INFO</h3>
+                    <ul>
+                        <li><a href="#">About</a></li>
+                        <li><a href="#">FAQ</a></li>
+                        <li><a href="#">Contact Us</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h3>LEGAL</h3>
+                    <ul>
+                        <li><a href="#">Privacy Policy</a></li>
+                        <li><a href="#">Terms and Conditions</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <img src="/placeholder.svg?height=100&width=100" alt="MNHS Scout Logo" class="footer-logo">
+                <p>© 2024 MNHS Scout Portal - All Rights Reserved</p>
+                <p>Registered 501(c)(3)</p>
+                <div class="footer-links">
+                    <a href="#">GIVE</a>
+                    <a href="#">BE A SCOUT</a>
+                    <a href="#">SCOUTSHOP</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    <script src="/js/hero-page.js"></script>
 </body>
 </html>
