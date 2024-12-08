@@ -57,7 +57,7 @@ mobileMenuBtn.addEventListener('click', () => {
 });
 
 // Initialize Swiper
-var swiper = new Swiper('.swiper-container', {
+const swiper = new Swiper('.swiper', {
     slidesPerView: 1,
     spaceBetween: 30,
     loop: true,
@@ -71,6 +71,7 @@ var swiper = new Swiper('.swiper-container', {
     },
     autoplay: {
         delay: 5000,
+        disableOnInteraction: false,
     },
 });
 
