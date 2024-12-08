@@ -466,3 +466,25 @@ footer {
         background-position: 0% 50%;
     }
 }
+
+.swiper {
+    width: 100%;
+    height: 400px;
+}
+
+.swiper-slide img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.swiper-button-next,
+.swiper-button-prev {
+    color: var(--pink);
+}
+
+.swiper-pagination-bullet-active {
+    background-color: var(--pink);
+}
+
